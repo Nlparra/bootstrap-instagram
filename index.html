@@ -9,16 +9,18 @@
     <title>Instagram with Bootstrap!</title>
 </head>
 <body>
+    
+    <div class="container">
     <nav class="navbar navbar-light bg-light">
         <a class="navbar-brand" href="#">
             <img src="https://png.pngtree.com/png-clipart/20190516/original/pngtree-instagram-social-media-icon-design-template-vector-png-image_3654775.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
             Instagram
         </a>
         <button 
-            type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#exampleModal">
+            type="button" class="btn btn-success btn-sm " data-toggle="modal" data-target="#exampleModal">
             Create New Post
         </button>
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade " id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-body">
@@ -38,21 +40,22 @@
             </div>
         </div>
                     
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="fas fa-cog"></i>
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-cog fa-sm"></i>
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
             </div>
-        </li>
+        </div>
                     
     </nav>
+</div>
 
-
-    <ul class="nav nav-tabs sticky-top " id="myTab" role="tablist">
+    <ul class="nav nav-tabs sticky-top d-flex justify-content-center " id="myTab" role="tablist">
         <li class="nav-item">
             <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><i class="fas fa-th fa-sm"></i></a>
         </li>
@@ -61,7 +64,105 @@
         </li>
     </ul>
     <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">HELLO</div>
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+        
+        <div class="row">
+            <div class="col-4 d-flex justify-content-around ">
+                <div class="card" style="width: 18rem;">
+                <img src="https://cdn.britannica.com/72/202072-050-EDA415E9/Girl-with-Balloon-Banksy-Waterloo-Bridge-London.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col-4 d-flex justify-content-around">
+                <div class="card" style="width: 18rem;">
+                <img src="https://cdn.britannica.com/72/202072-050-EDA415E9/Girl-with-Balloon-Banksy-Waterloo-Bridge-London.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col-4 d-flex justify-content-around">
+                <div class="card" style="width: 18rem;">
+                <img src="https://cdn.britannica.com/72/202072-050-EDA415E9/Girl-with-Balloon-Banksy-Waterloo-Bridge-London.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 d-flex justify-content-around ">
+                <div class="card" style="width: 18rem;">
+                <img src="https://cdn.britannica.com/72/202072-050-EDA415E9/Girl-with-Balloon-Banksy-Waterloo-Bridge-London.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col-4 d-flex justify-content-around">
+                <div class="card" style="width: 18rem;">
+                <img src="https://cdn.britannica.com/72/202072-050-EDA415E9/Girl-with-Balloon-Banksy-Waterloo-Bridge-London.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col-4 d-flex justify-content-around">
+                <div class="card" style="width: 18rem;">
+                <img src="https://cdn.britannica.com/72/202072-050-EDA415E9/Girl-with-Balloon-Banksy-Waterloo-Bridge-London.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 d-flex justify-content-around ">
+                <div class="card" style="width: 18rem;">
+                <img src="https://cdn.britannica.com/72/202072-050-EDA415E9/Girl-with-Balloon-Banksy-Waterloo-Bridge-London.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col-4 d-flex justify-content-around">
+                <div class="card" style="width: 18rem;">
+                <img src="https://cdn.britannica.com/72/202072-050-EDA415E9/Girl-with-Balloon-Banksy-Waterloo-Bridge-London.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col-4 d-flex justify-content-around">
+                <div class="card" style="width: 18rem;">
+                <img src="https://cdn.britannica.com/72/202072-050-EDA415E9/Girl-with-Balloon-Banksy-Waterloo-Bridge-London.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+        </div>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">SUP</div>
     </div>
     
